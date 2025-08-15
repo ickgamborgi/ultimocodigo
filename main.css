@@ -1,0 +1,58 @@
+.hidden {
+    display: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 50px;
+}
+
+h1 {
+    font-size: 32px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+h2 {
+    font-size: 16px;
+    color: grey;
+    margin-top: 25px;
+}
+
+section {
+    margin-top: 50px;
+    display: flex;
+    gap: 25px;
+}
+
+.pessoas h4 {
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: white;
+}
+
+.pessoas img {
+    opacity: .5;;
+    width: 100px;
+    border-radius: 15px;
+    transition:cubic-bezier(1, 0, 0, 1);
+    transition: ease-in-out .3s all;
+    cursor: pointer;
+}
+
+.pessoas img:hover {
+    opacity: 1;
+}
+
+.pessoas {
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.138);
+    background-color: blue;
+}
